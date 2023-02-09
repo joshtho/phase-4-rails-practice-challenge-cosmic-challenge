@@ -1,5 +1,5 @@
 class MissionSerializer < ActiveModel::Serializer
-  attributes :id, :name
+  attributes :name
   has_one :scientist
   has_one :planet
 end
